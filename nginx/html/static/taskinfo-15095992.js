@@ -1,0 +1,1 @@
+import{aw as t}from"./vue-657d2c67.js";import{r as a}from"./index-2c25bdbe.js";const i=t("tasks",{state:()=>({task_ids:""}),actions:{setTaskIds(s){this.task_ids=s},getTaskIds(){return this.task_ids},clear(){this.task_ids="",a.push("/Tasks")}},persist:{key:"task_info",storage:sessionStorage,paths:["task_ids"]}});export{i as u};
