@@ -12,7 +12,7 @@
 
 修改mysql数据库链接配置
 
-```json
+```bash
 MYSQL_HOST = "localhost"
 MYSQL_PORT = 3306
 MYSQL_USER = "root"
@@ -21,7 +21,7 @@ MYSQL_PASSWORD = ""
 
 修改redis链接配置
 
-```json
+```bash
 REDIS_HOST = "localhost"
 REDIS_PORT = 6379
 REDIS_USER = "default"
